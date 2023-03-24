@@ -4,7 +4,7 @@ const ShowHide = () => {
   const[show,setShow] = useState(false)
   return (
     <>
-        <button className='btn' onClick={() => setShow(!show)}>
+        <button className='btn btn-primary' onClick={() => setShow(!show)}>
             Show/hide
         </button>
         {show && <Item /> }
