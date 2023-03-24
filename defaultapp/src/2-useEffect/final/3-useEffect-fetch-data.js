@@ -19,7 +19,7 @@ const UseEffectSecondArgument = () => {
     }, []);
     return (
         <>
-            <h3 className="animate__animated animate__backInLeft animate__delay-2s" style={{ margin: '2rem 0'}} >Github Users</h3>
+            <h3 className="animate__animated animate__backInLeft animate__delay-2s" style={{ margin: '2rem 0'}} >Github Users (Fetched)</h3>
             <div className='users container' style={{ margin: '4rem 0'}}>
                 {users.map((user)=>{
                     const{ id, login, avatar_url, html_url} = user;
