@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
-// import Setup from './1-useState/setup/2-useState-basics';
-import Setup from './1-useState/setup/3-useState-array';
+import Setup from './1-useState/setup/2-useState-basics';
+// import Setup from './1-useState/setup/3-useState-array';
 // import Setup from './1-useState/setup/4-useState-object';
 // import Setup from './1-useState/setup/5-useState-counter';
 // import Setup from './1-useState/final/1-error-example';
