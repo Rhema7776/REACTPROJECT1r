@@ -15,8 +15,8 @@ const ShortCircuit = () => {
     {/* {text && <h1>hello world</h1>}
     {!text && <h1>hello world</h1>} */}
     <h1>{text || 'rhema chuks'}</h1>
-    <button className='btn' onClick={() => setisError(!isError)}>
-      toggle error
+    <button className='btn btn-outline-warning' onClick={() => setisError(!isError)}>
+      toggle error (Click)
     </button>
     {isError && <h1 style={{ color: 'brown' }}>Errror...</h1>}
     {isError ? (
