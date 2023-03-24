@@ -62,12 +62,12 @@ const Controlledinputs = () => {
                          onChange={handleChange}
                         />
                     </div>
-                    <button type='submit' onClick={handleSubmit} >Add person</button>
+                    <button type='submit' className='btn btn-success' onClick={handleSubmit} >Add person</button>
                 </form>
                 {people.map((person) => {
                     const {id, firstName, email,age} = person;
                     return(
-                        <div className='item' key={id}>
+                        <div className='item animate__animated  animate__backInDown '  key={id}>
                             <h4>{firstName}</h4>
                             <p>{email}</p>
                             <p>{age}</p>
