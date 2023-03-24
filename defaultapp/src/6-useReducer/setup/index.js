@@ -33,7 +33,8 @@ const Index = () => {
             <form action="" onSubmit={handleSubmit} className="form">
                 <div>
                     <input
-                    type="text" 
+                    type="text"
+                    placeholder='type in something nice' 
                     value={name} 
                     onChange={(e) => setName(e.target.value)} 
                     />
